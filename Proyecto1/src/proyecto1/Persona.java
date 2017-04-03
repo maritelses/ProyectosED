@@ -11,31 +11,26 @@ package proyecto1;
  */
 public class Persona {
     
-    private String numeroDeTelefono;
-    private String nombre;
+    private String numeroTelefono;
     
-    public Persona (String numeroDeTelefono){
+    
+    public Persona (String numeroTelefono){
         
     
     super();
-    this.numeroDeTelefono = numeroDeTelefono;
+    this.numeroTelefono = numeroTelefono;
    
     }
 
-    public String getNumeroDeTelefono() {
+    public String getNumeroTelefono() {
         return numeroDeTelefono;
     }
 
-    public void setNumeroDeTelefono(String numeroDeTelefono) {
-        this.numeroDeTelefono = numeroDeTelefono;
+    public void setNumeroTelefono(String numeroTelefono) {
+        this.numeroTelefono = numeroTelefono;
     }
     
-    public String getNombre(){
-    
-        return nombre;
-    
-    
-    }
+
     
     
 }
