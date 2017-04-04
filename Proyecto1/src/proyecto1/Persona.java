@@ -12,8 +12,10 @@ package proyecto1;
 public class Persona {
     
     private String numeroDeTelefono;
+    private String nombre;
     
     public Persona (String numeroDeTelefono){
+        
     
     super();
     this.numeroDeTelefono = numeroDeTelefono;
@@ -28,7 +30,12 @@ public class Persona {
         this.numeroDeTelefono = numeroDeTelefono;
     }
     
+    public String getNombre(){
     
+        return nombre;
+    
+    
+    }
     
     
 }
